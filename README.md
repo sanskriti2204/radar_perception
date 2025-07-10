@@ -31,13 +31,21 @@ Radar Perception is a Python toolbox for building radar-based perception systems
    ```bash
    git clone https://github.com/sanskriti2204/radar_perception.git
    cd radar_perception
+     ```
 2. **Install Dependencies:**
+     ```bash
    pip install -r requirements.txt
-3. **Download and Prepare a Dataset:**
+       ```
+4. **Download and Prepare a Dataset:**
+     ```bash
    python scripts/download_dataset.py --name carrada --out data/carrada
-4. **Run Detection Demo:**
+       ```
+6. **Run Detection Demo:**
+     ```bash
    python demos/run_detection.py --cfg configs/detection/sample_config.yaml
-5. **Visualize Predictions:**
+       ```
+8. **Visualize Predictions:**
+     ```bash
    python scripts/visualize_results.py --input data/carrada --predictions outputs/preds.pkl
 Future Enhancements:
 -**Real-Time Pipeline Support**
