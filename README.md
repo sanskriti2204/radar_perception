@@ -48,9 +48,9 @@ Radar Perception is a Python toolbox for building radar-based perception systems
    ```bash
    python scripts/visualize_results.py --input data/carrada --predictions outputs/preds.pkl
 Future Enhancements:
--**Real-Time Pipeline Support**
--**Web-based Visualization Dashboard**
--**Additional Dataset Support (e.g., nuScenes)**
--**Pretrained Model Zoo for Radar Tasks**  
+- **Real-Time Pipeline Support**
+- **Web-based Visualization Dashboard**
+- **Additional Dataset Support (e.g., nuScenes)**
+- **Pretrained Model Zoo for Radar Tasks**  
      
 
